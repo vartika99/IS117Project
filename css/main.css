@@ -1,9 +1,12 @@
+body {
+    background-color: lavenderblush;
+}
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
+    background-color: lavender;
     color: white;
     text-align: center;
     padding: 10px;
@@ -19,4 +22,14 @@
     max-width: 85%;
     max-height: 100vh;
     margin: auto;
+}
+
+.span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
 }
