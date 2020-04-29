@@ -27,12 +27,15 @@ body {
 /* contact page */
 .big-title {
     text-align: center;
-    font-family: Calibri B, Arial;
+    font-family: Calibri Light, Arial;
 }
-
+.form-group {
+    margin: 0px;
+    padding: 0px;
+}
 /* about page */
 .text-center {
-    font-family: Calibri B, Arial;
+    font-family: Calibri Light, Arial;
 }
 .container-me {
     margin-left: 3%;
@@ -62,7 +65,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: lavender;
+    background-color: pink;
     color: white;
     text-align: center;
     padding: 10px;

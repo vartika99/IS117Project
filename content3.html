@@ -1,10 +1,130 @@
+<!-- DEVELOPER: Vartika Patel, IS117-002, Spring 2020 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>vartika's website</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+<div class="container">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+            <!-- Brand -->
+            <a href="index.html"><img src="images/logo.png" alt="movie icon" width="45" height="45"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="content1.html">Movie Recs.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="content2.html">TV Show Recs.</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="content3.html">Personal Favs.</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            More
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="about.html">About Me</a>
+                            <a class="dropdown-item" href="contact.html">Contact Me</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <br>
 
+    <h2 class="text-center">TV Shows</h2>
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="images/sgbs.jpg" alt="strong girl bong-soon">
+            <div class="card-body">
+                <h5 class="card-title">Strong Girl Bong-Soon</h5>
+                <p>Strong Girl Bong-Soon is a Korean drama revolving around Bong-Soon, a woman with superhuman strength.
+                    When An Min-Hyuk, the CEO of a gaming company called Ainsoft hires Bong-Soon as his bodyguard, she
+                    must learn how to control her powers in order to protect Min-Hyuk.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="images/myfirstfirstlove.jpg" alt="my first first love">
+            <div class="card-body">
+                <h5 class="card-title">My First First Love</h5>
+                <p>My First First Love is a Korean drama that is based around four strangers who have one thing in common:
+                being friends with Yun Tae-o. The drama follows the five friends' journeys as they form new relationships.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="images/office.jpg" alt="the office">
+            <div class="card-body">
+                <h5 class="card-title">The Office</h5>
+                <p>The Office is a sitcom focusing on the employees of Dunder Mifflin, a paper company based in
+                    Pennsylvania.</p>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="text-center">Movies</h2>
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="images/spidey-ffh.jpg" alt="spider-man far from home">
+            <div class="card-body">
+                <h5 class="card-title">Spider-Man Far From Home</h5>
+                <p>Spider-Man Far From Home is about Peter Parker and his classmates taking a class trip to Europe. On his trip,
+                    he is faced with yet another Avengers-level threat.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="images/500daysofsummer.jpg" alt="500 days of summer">
+            <div class="card-body">
+                <h5 class="card-title">500 Days Of Summer</h5>
+                <p>500 Days of Summer is about Tom Hansen, a writer at a greeting-card company, figuring out his
+                priorities when his relationship with his girlfriend, Summer, ends abruptly.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="images/tpobaw.png" alt="the perks of being a wallflower">
+            <div class="card-body">
+                <h5 class="card-title">The Perks of Being a Wallflower</h5>
+                <p>The Perks of Being a Wallflower is based off of a book of the same name. It follows high-school
+                    freshman Charlie Kelmeckis as he goes through some major changes in his life.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Vartika Patel, 2020. |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+</div>
 </body>
 </html>
