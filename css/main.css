@@ -1,6 +1,62 @@
+/* DEVELOPER: Vartika Patel, IS117-002, Spring 2020 */
+
+* {
+    margin:0;
+    padding:0;
+}
+
 body {
     background-color: lavenderblush;
 }
+
+/* home page */
+.img-box {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 85%;
+    max-height: 100vh;
+    margin: auto;
+}
+.card-deck {
+    padding: 5%;
+    font-family: Calibri Light, Arial;
+}
+
+/* contact page */
+.big-title {
+    text-align: center;
+    font-family: Calibri B, Arial;
+}
+
+/* about page */
+.text-center {
+    font-family: Calibri B, Arial;
+}
+.container-me {
+    margin-left: 3%;
+}
+.my-pic {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 60px;
+    width: 35%;
+}
+.me-text {
+    max-width: 60%;
+    text-align: left;
+    padding-left: 5px;
+    float: right;
+    font-family: Calibri Light, Arial;
+    font-size: 14pt;
+}
+.column {
+    float: left;
+    width: 40%;
+}
+
+/* footer */
 .footer {
     position: fixed;
     left: 0;
@@ -11,25 +67,4 @@ body {
     text-align: center;
     padding: 10px;
     font-size: 0.5rem;
-}
-
-/* jumbotron picture */
-.img-box {
-    display: grid;
-    height: 100%;
-}
-.center-fit {
-    max-width: 85%;
-    max-height: 100vh;
-    margin: auto;
-}
-
-.span4 img {
-    margin-right: 10px;
-}
-.span4 .img-left {
-    float: left;
-}
-.span4 .img-right {
-    float: right;
 }
